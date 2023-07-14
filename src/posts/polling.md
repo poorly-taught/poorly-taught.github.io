@@ -1,6 +1,6 @@
 ---
 layout: post.njk 
-title: Polling!
+title: Overview of Short and Long Polling!
 tags: ['post']
 author: Miguel Carter
 date: 2023-06-13
@@ -9,7 +9,7 @@ teaser:
 description: An overview of short and long polling communication patterns in web applications.
 ---
 
-## Polling!
+## Overview of Short and Long Polling!
 If you are accustomed to working with applications that adhere to a client-server architecture, then you are likely familiar with the process of retrieving data from a server using HTTP request-response communication pattern. This typically involves the application sending an HTTP request to a server and waiting for a response. However, when it comes to polling, the application periodically makes these requests to the server at fixed time intervals to obtain new data. The way the server handles these periodic requests depends on whether the type of polling is short or long.
 
 ## Short Polling
