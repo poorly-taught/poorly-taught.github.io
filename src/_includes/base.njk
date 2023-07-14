@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css">
+    <title>{{ title }}</title>
+  </head>
+  <body id="base-body">
+    <header id="base-header">
+      <div id="base-header-content">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+      </div>
+    </header>
+    <main id="base-main">
+      {{ content | safe }}
+    </main>
+    <footer id="main-footer">
+      <p>&copy; 2023 Poorly Taught</p>
+    </footer>
+  </body>
+</html>
