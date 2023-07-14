@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src", // default is "."
-      output: "docs" // default is "_site"
+      output: "_site" // default is "_site"
     }
   }
 };
